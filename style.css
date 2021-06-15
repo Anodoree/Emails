@@ -12,15 +12,10 @@ table{
 }
 img{
   display: block;
-  width: 100%;
 }
 a{
   text-decoration: none;
   color: #c8cce5;
-  display: block;
-  background-color: #ffe316;
-  border-radius: 30px;
-  padding: 10px;
   font-weight: bold;
 }
 .padding-10{
@@ -30,6 +25,9 @@ a{
 .padding-20{
   height: 20px;
   width: 20px;
+}
+.banner img{
+  width: 100%;
 }
 .lot{
   border-radius: 20px;
@@ -62,8 +60,57 @@ a{
   text-align: center;
   padding: 5px;
 }
+.product__link-text{
+  display: block;
+  background-color: #ffe316;
+  border-radius: 30px;
+  padding: 10px;
+}
 .two-lots{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.two-lots__inner{
+  max-width: 300px;
+}
+
+.footer{
+  border-bottom: 1px solid #000000;
+}
+
+.footer-top__img{
+  max-height: 33px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.footer-top__link{
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footer-inner__text{
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #c8cce5;
+  display: block;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.footer-inner__text-link{
+  color: #569eff;
+}
+
+.footer-bottom{
+  color: #a6a6a4;
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer-bottom__link{
+  color: #5093ff;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: underline;
 }
