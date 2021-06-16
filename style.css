@@ -1,17 +1,16 @@
-body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: #f2f6fa;
-  max-width: 600px;
-  margin: 0 auto;
+.wrapper{
+  background-color: #ffffff;
+  min-width: 320px;
+  font-size: 1px;
   font-family: Arial, Verdana, Tahoma, Geneva, sans-serif;
+  line-height: normal;
 }
-table{
-  padding: 0;
-}
-img{
-  display: block;
+.table600{
+  background-color: #f2f6fa;
+  width: 100%;
+  max-width: 600px;
+  min-width: 320px;
+  font-size: 14px;
 }
 a{
   text-decoration: none;
@@ -72,7 +71,7 @@ a{
   justify-content: space-around;
 }
 .two-lots__inner{
-  max-width: 300px;
+  width: 300px;
 }
 
 .footer{
@@ -89,7 +88,6 @@ a{
   font-size: 12px;
   line-height: 18px;
 }
-
 .footer-inner__text{
   font-size: 12px;
   line-height: 18px;
