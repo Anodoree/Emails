@@ -1,15 +1,6 @@
-.wrapper{
-  background-color: #ffffff;
-  min-width: 320px;
-  font-size: 1px;
-  font-family: Arial, Verdana, Tahoma, Geneva, sans-serif;
-  line-height: normal;
-}
 .table600{
   background-color: #f2f6fa;
   width: 100%;
-  max-width: 600px;
-  min-width: 320px;
   font-size: 14px;
 }
 a{
