@@ -16,9 +16,6 @@ a{
   height: 20px;
   width: 20px;
 }
-.banner img{
-  width: 100%;
-}
 .lot{
   border-radius: 20px;
   background-color: #ffffff;
@@ -56,17 +53,22 @@ a{
   border-radius: 30px;
   padding: 10px;
 }
-.two-lots{
+.products{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.two-lots__inner{
+.products__inner{
   width: 300px;
 }
 
 .footer{
   border-bottom: 1px solid #000000;
+}
+
+.footer-top__cells{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-top__img{
